@@ -24,6 +24,7 @@ export const useAuthentication = () => {
     }
   }
 
+  // Register
   const createUser = async (data) => {
     checkIfIsCancelled();
 
@@ -61,7 +62,13 @@ export const useAuthentication = () => {
       setLoading(false);
       setError(systemErrorMessage);
     }
+  };
 
+  // logout - sign out
+  const logout = () => {
+    checkIfIsCancelled();
+
+    signOut(auth);
   };
 
   // para evitar o memory leak
@@ -74,5 +81,6 @@ export const useAuthentication = () => {
     createUser,
     error,
     loading,
+    logout,
   };
 };
