@@ -10,7 +10,7 @@ const Dashboard = () => {
   const uid = user.uid;
 
   // post do usuário
-  const posts = [];
+  const {documents: posts, loading} = useFetchDocuments("posts", null, uid);
 
   return (
     <div>
@@ -25,9 +25,14 @@ const Dashboard = () => {
         </div>
       ) : (
         <div>
+          {loading && <p>Carregando posts...</p>}
           <p>Tem posts</p>
         </div>
       )}
+      {posts && posts.map((post) => (
+        <h3 key={post.id}>{post.title}</h3>
+
+      ))}
     </div>
   );
 };
