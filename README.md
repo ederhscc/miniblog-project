@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-- Construir um mini blog utilizando o Firebase do Google como backend todo com o React. 
+- Construir um mini blog utilizando o Firebase do Google como back-end e o React no front-end. 
 
 <br>
 
@@ -33,7 +33,7 @@
 - O blog terá uma tela de autenticação por e-mail e senha e uma tela para cadastro de novos usuários;
 - Usuários não cadastrados poderão ver uma tela de home com os posts postados, uma tela sobre o MiniBlog e uma tela de cadastros de novos usuários;
 - Usuários já cadastrados terão a possibilidade de cadastrar novos posts e poderá gerenciá-los através de uma dashboard que possibilita a edição e exclusão dos mesmos;
-- Como backend o projeto utilizará o Firebase do Google e o React para o frontend, pois todo sistema terá que ser obrigatoramente SPA (Single Page Application).
+- Como back-end o projeto utilizará o Firebase do Google e o React para o front-end, pois todo sistema terá que ser obrigatoramente SPA (Single Page Application).
 
 <br>
 
