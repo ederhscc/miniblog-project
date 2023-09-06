@@ -33,6 +33,10 @@ nav button:hover {
     color: #bbb;
 }
 
+img {
+    width: 90%;
+}
+
 /* form styles */
 form {
     max-width: 40%;

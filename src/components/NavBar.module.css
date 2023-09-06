@@ -32,4 +32,19 @@
     background-color: #000;
     color: #fff;
   }
-  
+
+  @media(max-width: 800px) {
+    .navbar {
+        display: block;
+        text-align: center;        
+        padding: .7em 3em;
+    }
+    .links_list {
+        flex-direction: column;
+        padding: 0;        
+    }
+
+    .links_list li {
+       margin: .8em 0; 
+    }
+}
