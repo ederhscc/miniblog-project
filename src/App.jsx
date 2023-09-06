@@ -11,15 +11,15 @@ import { AuthProvider } from "./context/AuthContext";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 
-import Home from "pages/Home/Home";
-import About from "pages/About/About";
-import Login from "pages/Login/Login";
-import Register from "pages/Register/Register";
-import Dashboard from "pages/Dashboard/Dashboard";
-import CreatePost from "pages/CreatePost/CreatePost";
-import Search from "pages/Search/Search";
-import Post from "pages/Post/Post";
-import EditPost from "pages/EditPost/EditPost";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About";
+import Login from "./pages/Login/Login";
+import Register from "./pages/Register/Register";
+import Dashboard from "./pages/Dashboard/Dashboard";
+import CreatePost from "./pages/CreatePost/CreatePost";
+import Search from "./pages/Search/Search";
+import Post from "./pages/Post/Post";
+import EditPost from "./pages/EditPost/EditPost";
 
 function App() {
   const [user, setUser] = useState(undefined);
