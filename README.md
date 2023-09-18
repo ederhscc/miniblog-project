@@ -89,7 +89,7 @@ npm run dev
 
 ## Links 🔗
 
-Deploy: 
+Deploy: https://miniblog-weld.vercel.app/
 
 <div align="left">
 
